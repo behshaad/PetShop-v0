@@ -1,12 +1,6 @@
-
-
 .container {
     display: grid;
     grid-gap: 20px;
-}
-
-body {
-    background-image: url(./img/dog.jpg);
 }
 
 img {
@@ -111,26 +105,27 @@ button {
 
 /* !features */
 /* .features { */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-    /* grid-template-rows: 1fr; */
-    /* gap: 30px; */
-    /* background-color: brown; */
-    /* grid-gap: 30px; */
+/* display: grid; */
+/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+/* grid-template-rows: 1fr; */
+/* gap: 30px; */
+/* background-color: brown; */
+/* grid-gap: 30px; */
 
 /* } */
 .features {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
+}
+
 .feature {
     background: white;
     padding: 10px;
     border: 1px solid white;
     text-align: center;
-    box-shadow: 0 0 4px  rgba(0,0,0,0.1);
-  }
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
 
 
 
