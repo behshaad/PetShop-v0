@@ -1,43 +1,51 @@
-.container {
-    display: grid;
-    grid-gap: 20px;
-}
-
-img {
-    max-width: 100%;
-}
-
-button {
+body {
+    font-size: 15px;
+  }
+  
+  button {
     background: #ffc600;
     border: 0;
     padding: 10px 20px;
-}
-
+  }
+  
+  img {
+    max-width: 100%;
+  }
 /* ?nav */
-.menu a {
-    text-decoration: none;
-    display: grid;
-    padding: 60px;
-    display: block;
-    background-color: rgb(69, 187, 23);
-    color: aliceblue;
-    padding: 3%;
-    margin: 7%;
-    text-align: center;
-
-
-}
-
 .menu ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+.menu{
     display: grid;
     padding: 0;
     grid-template-columns: repeat(5, 1fr);
     list-style: none;
-    grid-gap: 20px;
+    grid-gap: 200px;
 
 }
+.menu a {
+    background: var(--yellow);
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  [aria-controls="menu-list"] {
+    display: none;
+  }
+
+
 
 /* ?nav */
+
 /** top */
 .top {
     display: grid;
@@ -104,15 +112,7 @@ button {
 }
 
 /* !features */
-/* .features { */
-/* display: grid; */
-/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-/* grid-template-rows: 1fr; */
-/* gap: 30px; */
-/* background-color: brown; */
-/* grid-gap: 30px; */
 
-/* } */
 .features {
     display: grid;
     grid-gap: 20px;
@@ -249,7 +249,7 @@ button:hover {
 
 /* ! card*/
 
-/* ! */
+/* !button */
 button {
     --green: #1BFD9C;
     font-size: 15px;
@@ -296,7 +296,7 @@ button {
         -ms-transform: translateX(15em);
             transform: translateX(15em);
    }
-/* ! */
+/* ! button*/
 /* ?meda */
 @media (max-width: 1000px) {
     .menu {

@@ -1,5 +1,12 @@
+/*
+  Oh Hello!
+
+  These are some base styles so that our tutorial looks good.
+
+  Let's go through the important bits real quick
+*/
 :root {
-    --yellow: #8646d6;
+    --yellow: #ffc600;
     --black: #272727;
   }
   
